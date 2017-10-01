@@ -1,13 +1,16 @@
 # Building workspace
+
       cd catkin_ws
   
       catkin_make
 
 # launch two_wheel_gazebo
 Launch roscore:
+
       roscore
 
 Launch gazebo. Open a new terminal:
+      
       cd catkin_ws
   
       . devel/setup.bash
@@ -16,6 +19,7 @@ Launch gazebo. Open a new terminal:
   
 
 Launch rviz. Open a new terminal: 
+
       cd catkin_ws
   
       . devel/setup.bash
